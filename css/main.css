@@ -2223,7 +2223,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .site-brand-container {
-  background: url("/images/header.jpg");
+  background: #222;
 }
 @media (max-width: 991px) {
   .site-brand-container {
@@ -2332,7 +2332,7 @@ ul.breadcrumb li + li:last-child {
   border-bottom-color: #fc6423;
 }
 .sidebar {
-  background: none;
+  background: var(--body-bg-color);
   box-shadow: none;
   margin-top: 100%;
   position: static;
