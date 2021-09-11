@@ -1163,7 +1163,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #d96136;
+  background: #cc03ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2223,7 +2223,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .site-brand-container {
-  background: #222;
+  background: url("/images/header.jpg");
 }
 @media (max-width: 991px) {
   .site-brand-container {
@@ -2332,7 +2332,7 @@ ul.breadcrumb li + li:last-child {
   border-bottom-color: #fc6423;
 }
 .sidebar {
-  background: var(--body-bg-color);
+  background: none;
   box-shadow: none;
   margin-top: 100%;
   position: static;
@@ -2562,4 +2562,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 100% 100%;
+}
+.sidebar {
+  box-shadow: none;
+  background: none;
 }
